@@ -1,6 +1,6 @@
 let boothData;
 function fetchData() {
-    const csvUrl = 'https://docs.google.com/spreadsheets/d/1KQbHAPlI-0eIXfEoPrBdgyr7un_3L4O9N6JMCCm0bTM/export?format=csv'; // Google Sheets CSV link
+    const csvUrl = 'https://docs.google.com/spreadsheets/d/1_xwKmN2ZOWVadU5_eC-MJQSG866pDNVbgWGyBAkWWZw/export?format=csv'; // Google Sheets CSV link
     fetch(csvUrl)
         .then(response => {
             if (!response.ok) {
